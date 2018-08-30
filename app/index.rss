@@ -1,0 +1,57 @@
+<rss
+	xmlns:yandex="http://news.yandex.ru"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:turbo="http://turbo.yandex.ru"
+	version="2.0"
+	>
+	<channel>
+		<title>Создание (разработка) сайтов - Tim Djol</title>
+		<link>https://timdjol.com/</link>
+		<description>Услуги по разработке сайта по современным тенденциям: лендинги, интернет-магазины, каталоги, сайты-визитки +996771002171 ☎ Звоните!</description>
+		<turbo:analytics type="Yandex" id="47584411"></turbo:analytics>
+		<item turbo="true">
+		  <title>Создание (разработка) сайтов</title>
+		  <link>http://timdjol.com</link>
+		  <turbo:content>
+			<![CDATA[
+			<header>
+				<h1>Создание сайтов</h1>
+				<figure>
+				  <img src="https://timdjol.com/img/bg.jpg">
+				  </figure>
+				  <menu>
+					  <a href="http://timdjol.com/#service">Услуги</a>
+					  <a href="http://timdjol.com/#statistic">Статистика</a>
+					  <a href="http://timdjol.com/#process">Процесс работы</a>
+					  <a href="http://timdjol.com/#portfolio">Портфолио</a>
+					  <a href="http://timdjol.com/#contacts">Контакты</a>
+				  </menu>
+			  </header>
+			  <p>Разработка сайтов по современным тенденциям: лендинги, интернет-магазины, каталоги, сайты-визитки</p>
+			  <h2>Основные направления</h2>
+			  <ul>
+				<li>Создание сайтов</li>
+				<li>Редизайн сайтов</li>
+				<li>Тех поддержка сайтов</li>
+				<li>Оптимизация сайтов</li>
+				<li>Разработка баннеров</li>
+				<li>Регистрация домена и хостинга</li>
+			</ul>
+			<figure>
+				<img src="https://timdjol.com/img/portfolio-images/amfi1.jpg">
+					<figcaption>Создание сайтов</figcaption>
+				</figure>
+				<button formaction="tel:+996771002171"
+				  data-background-color="tomato"
+				  data-color="white"
+				  data-primary="true">Заказать сайт</button>
+				  <div data-block="widget-feedback" data-stick="false">
+					<div data-block="chat" data-type="whatsapp" data-url="https://api.whatsapp.com/send?phone=996771002171"></div>
+					<div data-block="chat" data-type="telegram" data-url="https://telegram.me/@timdjol"></div>
+				</div>
+				<p>Наш адрес: Кыргызстан Бишкек</p>
+				]]>
+			</turbo:content>
+		</item>
+	</channel>
+</rss>
