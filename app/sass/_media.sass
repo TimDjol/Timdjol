@@ -13,7 +13,10 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
-
+	.animated
+		animation: none
+	.call-button
+		display: none
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
@@ -22,6 +25,8 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 767px)
 	/**/
+	.top_mnu ul
+		margin-top: 80px
 	.descr
 		margin-bottom: 70px
 	.logo
@@ -29,10 +34,14 @@
 			max-width: 150px
 			margin: 0 auto
 	.toggle_mnu
-		width: 40px
-		height: 40px
-	.top_wrapper .top_text h1
-		font-size: 1.8em
+		width: 50px
+		height: 50px
+	.phone
+		margin-top: 30px
+	.top_mnu ul a
+		opacity: 1
+	.top_wrapper
+		display: none
 	.process
 		&:first-child
 			padding-top: 20px
@@ -59,6 +68,17 @@
 		display: none
 	h1
 		font-size: 24px
+	.portfolio ul
+		padding: 0
+	.portfolio li
+		display: block
+		margin: 10px
+	.social_wrap
+		ul
+			padding: 0
+	// .top,.phone
+	// 	display: none
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	/**/

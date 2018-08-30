@@ -77,7 +77,7 @@ gulp.task('rsync', function() {
 		destination: 'timdjol.com/public_html/',
 		include: ['*.htaccess'], // Includes files to deploy
 		exclude: ['**/Thumbs.db', '**/*.DS_Store'], // Excludes files from deploy
-		recursive: true,
+		// recursive: true,
 		archive: true,
 		silent: false,
 		compress: true
