@@ -18,6 +18,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="yandex-verification" content="270b19676bfba641"/>
 	<meta property="og:image" content="img/logo.png">
+	<!-- <link rel="preload" as="style" href="css/main.min.css?ver=1.8" onload="this.rel='stylesheet'"> -->
+	<link rel="stylesheet" href="css/main.min.css">
 	<link rel="canonical" href="https://timdjol.com"/>
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
@@ -30,7 +32,7 @@
 	<meta name="msapplication-navbutton-color" content="#000"/>
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000"/>
-	<style>body {opacity: 0;overflow-x: hidden;}html {background-color: #fff;}.parallax-window{background-image: url(img/bg.jpg);}</style>
+
 	<!-- Google Tag Manager -->
 	<script>(function (w, d, s, l, i) {
 		w[l] = w[l] || [];
@@ -46,13 +48,14 @@
 		f.parentNode.insertBefore(j, f);
 	})(window, document, 'script', 'dataLayer', 'GTM-56Q5SZG');</script>
 	<!-- End Google Tag Manager -->
+
 	<link rel="amphtml" href="https://www.timdjol.com/amp.html">
+
 </head>
 
 <body>
-	<div class="parallax-window">
-		<!-- <div class="parallax-window" data-parallax="scroll" data-natural-width="1920" data-natural-height="1200" data-speed="0.3" data-image-src="img/bg.jpg"> -->
-			<div class="container-fluid">
+
+			<div class="container-fluid head">
 				<div class="row">
 					<div class="container">
 						<div class="row">
@@ -106,7 +109,7 @@
 				</div>
 				<a href="#service" class="scroll-mouse"></a>
 			</div>
-		</div>
+	
 
 		<div class="container-fluid service" id="service">
 			<div class="row">
@@ -278,15 +281,15 @@
 			</div>
 			<div class="row numbers">
 				<div class="col-md-4 col-sm-4 num-item">
-					<h3><span data-count="3"></span> года</h3>
+					<h3><span data-count="3" class="hidden-sm hidden-xs"></span><span class="hidden-lg hidden-md">3</span> года</h3>
 					<div class="descr">опыта работы</div>
 				</div>
 				<div class="col-md-4 col-sm-4 num-item">
-					<h3><span data-count="74"></span> выполненных</h3>
+					<h3><span data-count="74" class="hidden-sm hidden-xs"></span><span class="hidden-lg hidden-md">74</span> выполненных</h3>
 					<div class="descr">проектов</div>
 				</div>
 				<div class="col-md-4 col-sm-4 num-item">
-					<h3><span data-count="67"></span> счастливых</h3>
+					<h3><span data-count="67" class="hidden-sm hidden-xs"></span><span class="hidden-lg hidden-md">67</span> счастливых</h3>
 					<div class="descr">клиентов</div>
 				</div>
 			</div>
@@ -1426,7 +1429,7 @@
 									<div class="modal-box-content">
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
 										<h3>JapanWorld</h3>
-										<p>Компания "Japan World" существует на рынке уже более 5 лет. В магазине "Japan World" представлены ткани для штор и одежда. Стояла задача разработать каталог с удобной админкой и выдержать японский стиль.</p>
+										<p>Компания "Japan World" существует на рынке уже более 5 лет. В магазине "Japan World" представлены ткани для штор и одежд. Стояла задача разработать каталог с удобной админкой и выдержать японский стиль.</p>
 										<div class="btn-wrap">
 											<a rel="nofollow" href="http://japanworld.kg" target="_blank"><i class="fa fa-link"></i></a>
 										</div>
@@ -1626,8 +1629,8 @@
 	</form>
 </div>
 
-<link rel="preload" as="style" href="css/main.min.css?ver=1.4" onload="this.rel='stylesheet'">
-<script async src="js/scripts.min.js?ver=1.4"></script>
+
+<script async src="js/scripts.min.js?ver=1.7"></script>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
@@ -1640,13 +1643,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114357248-1"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
-
 	function gtag() {
 		dataLayer.push(arguments);
 	}
-
 	gtag('js', new Date());
-
 	gtag('config', 'UA-114357248-1');
 </script>
 
@@ -1674,7 +1674,6 @@
 		s.type = "text/javascript";
 		s.async = true;
 		s.src = "https://mc.yandex.ru/metrika/tag.js";
-
 		if (w.opera == "[object Opera]") {
 			d.addEventListener("DOMContentLoaded", f, false);
 		} else {

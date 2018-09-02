@@ -80,17 +80,7 @@ $(function() {
 	$(".right .resume_item").animated("fadeInRight", "fadeOutDown");
 
 	//animate
-	$(".numbers").waypoint(function() {
-		$({blurRadius: 5}).animate({blurRadius: 0}, {
-			duration: 3200,
-			easing: 'swing',
-			step: function() {
-				$(".num-item h3 span").css({
-					"-webkit-filter": "blur("+this.blurRadius+"px)",
-					"filter": "blur("+this.blurRadius+"px)"
-				});
-			}
-		});
+	$(".statistic .numbers").waypoint(function() {
 		var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(' ');
 		$(".num-item h3 span").each(function() {
 			var tcount = $(this).data("count");
@@ -115,6 +105,7 @@ $(function() {
 		navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		nav: false,
 		dots: true,
+		autoHeight:true,
 		responsiveClass: true,
 		responsive: {
 			0: {
@@ -237,12 +228,12 @@ $(function() {
 	var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 	var is_opera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 	if (is_safari){
-		$('.parallax-window').removeAttr('data-image-src');
-		$('.parallax-window').removeAttr('data-parallax');
-		$('.parallax-window').removeAttr('data-natural-width');
-		$('.parallax-window').removeAttr('data-natural-height');
-		$('.parallax-window').removeAttr('data-speed');
-		$('.parallax-window').addClass('bg');
+		// $('head').removeAttr('data-image-src');
+		// $('head').removeAttr('data-parallax');
+		// $('head').removeAttr('data-natural-width');
+		// $('head').removeAttr('data-natural-height');
+		// $('head').removeAttr('data-speed');
+		$('.head').addClass('bg');
 	}
 
 //copyright

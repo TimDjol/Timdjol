@@ -15,8 +15,26 @@
 	/**/
 	.animated
 		animation: none
+		opacity: 1 !important
 	.call-button
 		display: none
+	html, body
+		width: 100%
+		overflow-x: hidden
+		max-width: 100%
+		margin: 0
+		padding: 0
+	.num-item span
+		font-size: 3.7125em
+	.podrt_descr 
+		max-width: 100%
+		box-sizing: border-box
+		img
+			max-width: 100%
+		p
+			display: none
+	.about, .contacts, .portfolio, .price, .process-work, .resume, .service, .statistic
+		box-sizing: border-box
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
@@ -25,6 +43,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 767px)
 	/**/
+	//header
+	.head
+		background-color: #222
+		background-attachment: scroll
 	.top_mnu ul
 		margin-top: 80px
 	.descr
@@ -42,6 +64,17 @@
 		opacity: 1
 	.top_wrapper
 		display: none
+	h1
+		font-size: 24px
+	//service
+	.left, .right
+		text-align: center
+		h3
+			text-align: center		
+	//statistic
+	.num-item
+		margin-bottom: 30px
+	//process
 	.process
 		&:first-child
 			padding-top: 20px
@@ -52,27 +85,36 @@
 			font-size: 14px
 		&.leftproc 
 			.process-step
-				left: -30px
+				left: -20px
 		&.rightproc 
 			.process-step
-				right: -30px
+				right: -20px
+	.process:first-child .process-step
+		top: -15px
+	.process:last-child .process-step
+		bottom: -15px
+	.process-list
+		padding-left: 0
+	//price
+	.price
+		.container
+			padding: 0
+	//portfolio
+	.portfolio ul
+		padding: 0
+	.portfolio li
+		display: block
+		margin: 10px
+	
+	//footer
 	.main-footer
 		text-align: center
 	.main-footer .social_wrap
 		float: none
 		text-align: center
 		margin-top: 15px
-	.num-item
-		margin-bottom: 30px
 	.call-button
 		display: none
-	h1
-		font-size: 24px
-	.portfolio ul
-		padding: 0
-	.portfolio li
-		display: block
-		margin: 10px
 	.social_wrap
 		ul
 			padding: 0
@@ -80,6 +122,10 @@
 	// 	display: none
 	.mfp-content
 		max-width: 90%
+	.top.active
+		left: auto
+		right: 15px
+	
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)

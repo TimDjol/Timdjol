@@ -58,7 +58,7 @@ gulp.task('js', function() {
 		'app/libs/phone/jquery.inputmask.bundle.js',
 		'app/libs/phone/phone.js',
 		'app/libs/prognroll/prognroll.js',
-		'app/libs/parallax/parallax.js',
+		// 'app/libs/parallax/parallax.js',
 		'app/libs/typeit/typeit.min.js',
 		'app/libs/animateNumber/jquery.animateNumber.min.js',
 		'app/js/common.js',

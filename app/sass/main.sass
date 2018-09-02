@@ -180,8 +180,8 @@ a
 
 *
 	transition: filter .25s ease
-.mfp-wrap ~ *
-	filter: blur(5px)
+// .mfp-wrap ~ *
+// 	filter: blur(5px)
 
 .callback
 	color: #fff
@@ -287,22 +287,22 @@ input, textarea
 		opacity: 1
 		top: 50%
 
-.parallax-window
+.head
 	position: relative
 	padding-top: 20px
 	height: 100vh
 	min-height: 400px
 	z-index: 2
 	color: $light
-	// background-image: url(../img/bg.jpg)
+	background-image: url(../img/bg.jpg)
 	background-size: cover
 	background-position: center
 	background-attachment: fixed
 	&.bg
-		background-image: url(../img/bg.jpg)
 		background-size: cover
 		background-position: center
 		background-attachment: scroll
+		background-image: url(../img/bg.jpg)
 .logo
 	img
 		max-width: 200px
@@ -749,9 +749,9 @@ svg
 		color: #fff
 		position: absolute
 		top: 50px
-		z-index: 10
+		z-index: 1
 	&-descr
-		z-index: 10
+		z-index: 1
 	h3
 		font-family: raleway-semi,sans-serif
 		color: $accent
