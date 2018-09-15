@@ -105,7 +105,7 @@ $(function() {
 		navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		nav: false,
 		dots: true,
-		autoHeight:true,
+		// autoHeight:true,
 		responsiveClass: true,
 		responsive: {
 			0: {
