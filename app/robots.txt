@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /stom
 Disallow: /404.html
-Disallow: /confidence.html
+
 
 Host: https://timdjol.com
 
